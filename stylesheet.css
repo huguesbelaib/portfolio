@@ -30,3 +30,10 @@ html {
     /* Improve kerning for good measure */
     text-rendering: optimizeLegibility;
   }
+
+  /* --- CONTENT STYLING --- */
+
+/* --- Adjust the max width of pages --- */
+.super-content.max-width, .notion-header__content.max-width {
+    max-width: 1080px !important;
+  }
