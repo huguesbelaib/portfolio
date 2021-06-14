@@ -1,0 +1,32 @@
+html {
+    -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom */
+  }
+  
+  /* --- Change default colors --- */
+  :root {
+    --collection-card-cover-size-large: 210px !important;
+  }
+  @media screen and (min-width: 50em) {
+    :root {
+      --collection-card-cover-size-large: 270px !important;
+    }
+  }
+  
+  
+  /* --- TYPOGRAPHY --- */
+  
+  /* Increase base font size for large screens */
+  @media screen and (min-width: 50em) {
+    html {
+      font-size: 18px !important;
+    }
+  }
+  
+  body { 
+    /* Make the text nice and crisp */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Improve kerning for good measure */
+    text-rendering: optimizeLegibility;
+  }
