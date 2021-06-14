@@ -96,16 +96,6 @@ html {
 		padding: 16px 24px !important;
 		border: none !important;
 	}
-	
-	.notion-callout.bg-purple-light {
-		box-shadow: 0 10px 20px -10px #516bef !important;
-		background: #516bef !important;
-	}
-  
-	.notion-callout.bg-yellow-light {
-		box-shadow: 0 10px 20px -10px #f0bd66 !important;
-		background: #f0bd66 !important;
-	}
   
 	.notion-callout.bg-blue-light {
 		box-shadow: 0 10px 20px -10px #1ea1f1 !important;
