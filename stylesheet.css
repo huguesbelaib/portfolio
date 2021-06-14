@@ -63,7 +63,7 @@ html {
   display: none !important;
 }
 .nav {
-  background: rgb(226, 226, 226);
+  background: #fafafa;
   backdrop-filter: blur(20px);
   color: #3d444b !important;
   align-items: center;
