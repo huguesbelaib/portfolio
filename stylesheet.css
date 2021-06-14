@@ -59,10 +59,10 @@ html {
 
   /* --- NAVIGATION --- */
 
-  .notion-navbar {
+.notion-navbar {
     display: none !important;
   }
-  
+
 .nav {
   background: rgba(0,0,0,0.8);
   backdrop-filter: blur(20px);
