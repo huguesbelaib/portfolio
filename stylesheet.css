@@ -59,7 +59,7 @@ html {
 
   /* --- NAVIGATION --- */
 
-/* Hide the Notion nav bar */
+/* Hide the Notion nav bar 
 .notion-navbar {
     display: none !important;
   }
