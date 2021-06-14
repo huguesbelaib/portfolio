@@ -50,6 +50,29 @@ html {
     display: none !important;
   }
 
+/* --- PROJECTS LISTING --- */
+
+/* Remove header of the gallery table */
+.notion-collection__header {
+    display: none !important;
+  }
+  
+  /* Stop card from breaking out of layout on screens smaller than 370px */
+  .notion-collection-gallery {
+    display: block !important;
+    border-top: none !important;
+  }
+  
+  @media screen and (min-width: 370px) {
+    /* Adjust spacing of gallery grid */
+    .notion-collection-gallery {
+      display: grid !important;
+      grid-gap: 46px !important;
+      gap: 46px !important;
+      grid-row-gap: 66px !important;
+    }
+  }
+
   /* Override default card styling */
 .notion-collection-card {
     border-radius: 0 !important;
