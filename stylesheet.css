@@ -4,14 +4,7 @@ html {
   
   /* --- Change default colors --- */
   :root {
-    --color-bg-default: #F9F6F0 !important;
-    --color-text-default: #4B5673 !important;
-    --color-text-default-light: #4B5673 !important;
-    --color-text-gray: #959BA9 !important;
-    --color-border-default: rgba(23,23,24,0.15) !important;
     --collection-card-cover-size-large: 210px !important;
-    --font-family-primary: reason-new, 'Work Sans', sans-serif !important;
-    --font-family-secondary: psfournier-std, 'Nanum Myeongjo', serif !important;
   }
   @media screen and (min-width: 50em) {
     :root {
@@ -30,8 +23,7 @@ html {
   }
   
   body {
-    font-family: var(--font-family-primary) !important;
-  
+ 
     /* Make the text nice and crisp */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
