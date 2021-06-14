@@ -31,3 +31,61 @@ html {
     /* Improve kerning for good measure */
     text-rendering: optimizeLegibility;
   }
+
+  /* Styling for page names */
+.notion-header__title {
+    font-weight: 500 !important;
+    font-size: 0.75rem !important;
+    line-height: 1.25 !important;
+    min-height: auto !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.1em !important;
+    padding: 0 !important;
+    display: none;
+  }
+  .notion-header__content>div {
+    margin-bottom: 0px !important;
+  }
+  .notion-header {
+    margin-bottom: 0px !important;
+    padding-top: 32px !important;
+  }
+  @media screen and (min-width: 680px) {
+    .notion-header {
+      padding-top: 80px !important;
+    }
+  }
+  
+
+  /* --- NAVIGATION --- */
+
+.notion-navbar {
+  display: none !important;
+}
+.nav {
+  background: rgba(0,0,0,0.8);
+  backdrop-filter: blur(20px);
+  color: #808c99 !important;
+  align-items: center;
+  padding-left: 20px;
+  position: fixed;
+  z-index: 9999;
+  display: flex;
+  height: 64px;
+  width: 100%;
+}
+
+.nav-link {
+  transition: all .3s ease-in-out;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px 4px;
+  font-size: 14px;
+  display: flex;
+  height: 100%;
+  color: #fff;
+}
+
+.nav-link:hover {
+  color: #808c99 !important;
+}
