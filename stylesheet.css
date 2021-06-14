@@ -63,9 +63,9 @@ html {
   display: none !important;
 }
 .nav {
-  background: rgba(0,0,0,0.8);
+  background: rgb(226, 226, 226);
   backdrop-filter: blur(20px);
-  color: #808c99 !important;
+  color: #3d444b !important;
   align-items: center;
   padding-left: 20px;
   position: fixed;
