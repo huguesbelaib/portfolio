@@ -37,3 +37,10 @@ html {
 .super-content.max-width, .notion-header__content.max-width {
     max-width: 1080px !important;
   }
+
+/* --- NAVIGATION --- */
+
+/* Hide the Notion nav bar */
+.notion-navbar {
+    display: none !important;
+  }
