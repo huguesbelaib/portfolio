@@ -83,7 +83,7 @@ html {
   font-size: 14px;
   display: flex;
   height: 100%;
-  color: #fff;
+  color: #333333;
 }
 
 .nav-link:hover {
