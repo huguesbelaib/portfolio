@@ -94,14 +94,14 @@ html {
 .notion-toggle {
     display: none !important;
   }
-  
+
   /* --- PAGE LOAD ANIMATION --- */
 body {
-    -webkit-animation: fadeIn 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
-  animation: fadeIn 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
-    -moz-animation: fadeIn 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
-    -o-animation: fadeIn 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
-    -ms-animation: fadeIn 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
+    -webkit-animation: fadeIn 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
+  animation: fadeIn 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
+    -moz-animation: fadeIn 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
+    -o-animation: fadeIn 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
+    -ms-animation: fadeIn 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
   }
   @keyframes fadeIn {
     0% {opacity:0;}
