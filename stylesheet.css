@@ -102,7 +102,6 @@ html {
 	}
 
 	.notion-callout a {
-		letter-spacing: -0.5px !important;
 		padding: 0 0 2px 66px !important;
 		align-items: center !important;
 		position: absolute !important;
